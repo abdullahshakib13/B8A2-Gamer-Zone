@@ -1,0 +1,51 @@
+/*work sans font*/
+
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Merriweather:ital,wght@0,400;1,300&family=Oleo+Script+Swash+Caps&family=Roboto&family=Work+Sans:wght@400;500;600;700;800&display=swap');
+
+* {
+    font-family: 'Work Sans', sans-serif;
+}
+/* navbar styles */
+header{
+    /* width: 1920px;
+        height: 130px;
+        box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
+    background-color: #FFF; */
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+nav li{
+    list-style: none;
+    margin-right: 30px;
+}
+ .icon{
+    border-radius: 8px;
+    font-size: 15px;
+    align-items: center;
+    background: rgba(11, 2, 35, 0.10);
+    padding: 12px;
+    width: 200px;
+    height: 30px;
+    display: flex;
+    justify-content: space-between;   
+}
+img .icon-img{
+    padding: 12px;
+}
+.section-title{
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+}
+/* nav h3 .logo{
+    width: 86px;
+    height: 40px;
+} */
