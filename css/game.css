@@ -49,3 +49,92 @@ img .icon-img{
     width: 86px;
     height: 40px;
 } */
+/* banner section */
+.banner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* margin: 0 auto; */
+}
+.sign-btn{
+    border-radius: 48px;
+    background-color: #FF42A5;
+    padding: 21px 40px;
+    font-size: 20px;
+    font-weight: 600;
+    color: #FFF;
+    width: 155px;
+    height: 65px;
+}
+.go-btn{
+    border-radius: 48px;
+     background: #4EC5F7;
+    padding: 21px 40px;
+    font-size: 20px;
+    font-weight: 600;
+    color: #FFF;
+    width: 185px;
+    height: 65px;
+}
+
+/* gamer section */
+.gamer-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Online game section */
+.online-title{
+   text-align: center;
+}
+.online-img-content{
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    gap: 10px;
+    width: 90%;
+    padding-left: 20px;
+}
+
+/* play instantly section styles */
+.play-instantly{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.talking-img{
+    position: relative;
+    bottom: 100px;
+    border-radius: 8px;
+    border: 0px solid #FFF;
+}
+/* icon content styles */
+.icon-content{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+}
+/* footer section */
+.footer-section{
+    background: #0B0223;
+}
+.story-content{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: #FFF;
+}
+.icon-content{
+    align-items: center;
+    color: #FFF;
+}
+.terms-content{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    color: #FFF;
+}
+.copyright-content{
+    text-align: center;
+    color: #FFF;
+}
