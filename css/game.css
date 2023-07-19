@@ -24,7 +24,7 @@ nav{
    padding-left: 120px;
    padding-right: 120px;
    background: #FFF;
-   /* bborder: 1px solid #FFF; */
+   /* border: 1px solid #FFF; */
 }
 nav ul{
     display: flex;
@@ -41,14 +41,18 @@ nav li{
     font-size: 15px;
     align-items: center;
     background: rgba(11, 2, 35, 0.10);
-    padding: 12px;
-    width: 200px;
+    padding: 8px;
+    width: 180px;
     height: 30px;
     display: flex;
     justify-content: space-between;   
 }
 img .icon-img{
-    padding: 12px;
+    padding: 10px;
+}
+.logo{
+    width: 86px;
+    height: 40px;
 }
 .section-title{
     display: flex;
@@ -71,7 +75,7 @@ img .icon-img{
 .banner-img-container{
     /* padding: 100px 50px 100px 40px; */
     max-width: 100%;
-    height: 690px;
+    /* height: 690px; */
     padding-left: 180px;
 }
 .banner-title{
@@ -163,56 +167,168 @@ img .icon-img{
 }
 
 /* Online game section */
-.online-title{
+.online-content{
    text-align: center;
+   font-size: 18px;
+}
+.online-title{
+    color: #0B0223;
+}
+.text-color{
+    color: #F948B2;
+}
+.online-description{
+    color: #534C64;
+    font-size: 12px;
+    padding-bottom: 20px;
 }
 .online-img-content{
     display: flex;
-    justify-content: center;
-    /* align-items: center; */
+    justify-content: space-between;
+    width: 340px;
+    gap: 10px;
+    /* height: 00px; 
+    align-items: center;
     gap: 10px;
     width: 90%;
-    padding-left: 20px;
+    padding-left: 50px;
+    padding-right: 50px;  */
+}
+.online-img-content .card{
+    border-radius: 16px;
+    /* padding: 12px 3px; */
+    /* padding-left: 20px; */
+    /* padding-right: 50px; */
+    padding-bottom: 50px;
+}
+.online-img-content .card-title{
+    color: #534C64;
+    font-size: 12px;
+    font-weight: 400;
 }
 
 /* play instantly section styles */
-.play-instantly{
+.play-instantly-container{
     display: flex;
     justify-content: center;
     align-items: center;
+    width: 100%;
+}
+ .play-color{
+    color: #F948B2;
+}
+.play-title{
+    color: #0B0223;
+    text-align: right;
+    padding-right: 230px;
+    padding-left: 230px;
+    /* line-height: 60px; */
+}
+.play-description{
+    color: #534C64;
+    font-size: 12px;
+    font-weight: 140px;
+    padding-left: 200px;
+    padding-right: 200px;
+    text-align: right;
+}
+.anniversary-img img{
+    height: 90%;
+    margin-left: 50px;
 }
 .talking-img{
-    position: relative;
-    bottom: 100px;
+    width: 320px;
+    /* height: 350px; */
+    /* padding-right: 50px; */
     border-radius: 8px;
     border: 0px solid #FFF;
+    position: relative;
+    bottom: 100px;
+    right: 90px;
 }
 /* icon content styles */
 .icon-content{
     display: grid;
     grid-template-columns: repeat(5, 1fr);
+    width: 390px;
+    padding-left: 200px;
+    padding-right: 90px; 
+    padding-bottom: 30px;
+}
+.icon-img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* flex: wrap; */
+    width: 70%;
+    padding: 30px;
+    border-radius: 50px;
+    /* padding-left: 70px;
+    padding-right: 70px; */
+}
+.icon-title{
+    color: #0B0223;
 }
 /* footer section */
 .footer-section{
     background: #0B0223;
 }
+.footer-logo-content{
+    padding-top: 20px;
+}
+.logo-title{
+    color: #FFF;
+}
 .story-content{
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
     color: #FFF;
+
 }
-.icon-content{
+.story-tag{
+    padding: 10px;
+}
+.social-links{
+    /* display: inline-block; */
     align-items: center;
+    padding-left: 650px ;
+    /* justify-content: center; */
     color: #FFF;
 }
+
 .terms-content{
     display: flex;
-    justify-content: space-between;
-    text-align: center;
-    color: #FFF;
+    justify-content: center;
+    align-items: center;
+    color: rgba(255, 255, 255, 0.60);
+    font-size: 12px;
 }
+/* .terms-tag{
+    padding: 10px;
+} */
 .copyright-content{
     text-align: center;
-    color: #FFF;
+    color: rgba(255, 255, 255, 0.60);
+    font-size: 12px;
+    padding-bottom: 50px;
+}
+@media screen and (max-width: 576px){
+    .header{
+        padding: 20px;
+    }
+    .nav,
+    .banner,
+    .banner-img-container,
+    .gamer-container,
+    .online-img-content,
+    .play-instantly-container
+    {
+        flex-direction: column;
+    }
+    .icon-img{
+       grid-template-columns: 1fr;
+    }
+    
+
 }
