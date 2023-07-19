@@ -12,10 +12,19 @@ header{
         box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
     background-color: #FFF; */
 }
+.first-text{
+    color: #FF42A5;
+}
 nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+.header-container{
+   padding-left: 120px;
+   padding-right: 120px;
+   background: #FFF;
+   /* bborder: 1px solid #FFF; */
 }
 nav ul{
     display: flex;
@@ -25,6 +34,7 @@ nav ul{
 nav li{
     list-style: none;
     margin-right: 30px;
+    font-size: 15px;
 }
  .icon{
     border-radius: 8px;
@@ -54,27 +64,59 @@ img .icon-img{
     display: flex;
     justify-content: center;
     align-items: center;
+    background: #FFF;
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
     /* margin: 0 auto; */
+}
+.banner-img-container{
+    /* padding: 100px 50px 100px 40px; */
+    max-width: 100%;
+    height: 690px;
+    padding-left: 180px;
+}
+.banner-title{
+    color: #0B0223;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 550;
+    /* width: 348px;
+    height: 56px; */
+    /* gap: 5px; */
+    /* line-height: 56px; */
+}
+.banner-tag{
+    color: #F948B2;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 750;
+    /* width: 355px;
+    height: 111px; */
+    /* line-height: 110px; */
+}
+.banner-content{
+    color: #534C64;
 }
 .sign-btn{
     border-radius: 48px;
     background-color: #FF42A5;
-    padding: 21px 40px;
-    font-size: 20px;
-    font-weight: 600;
+    padding: 15px 30px;
+    font-size: 12px;
+    font-weight: 500;
     color: #FFF;
-    width: 155px;
-    height: 65px;
+    width: 130px;
+    height: 45px;
+    border: 0;
 }
 .go-btn{
     border-radius: 48px;
      background: #4EC5F7;
-    padding: 21px 40px;
-    font-size: 20px;
-    font-weight: 600;
+    padding: 15px 30px;
+    font-size: 12px;
+    font-weight: 500;
     color: #FFF;
-    width: 185px;
-    height: 65px;
+    width: 148px;
+    height: 45px;
+    border: 0;
 }
 
 /* gamer section */
@@ -82,6 +124,42 @@ img .icon-img{
     display: flex;
     justify-content: center;
     align-items: center;
+    padding: 0 90px;
+}
+.gamer-img{
+    /* width: 868px;
+        height: 489px; */
+}
+.gamer-title{
+    color: #F948B2;
+}
+.gamer-description{
+    color: #534C64;
+    font-size: 10px;
+    font-weight: 300px;
+    text-align: right;
+}
+.gamer-btn{
+    background: #FF42A5;
+    border-radius: 48px;
+    padding: 15px 30px;
+    font-size: 12px;
+    font-weight: 400;
+    color: #FFF;
+    width: 148px;
+    height: 45px;
+    border: 0;
+}
+.gamer-purpose{
+    /* text-align: right; */
+    font-size: 15px;
+    padding-left: 180px; 
+    color: #534C64;
+}
+.gamer-tagline{
+    color: #534C64;
+    font-weight: 700;
+    padding-left: 25px;
 }
 
 /* Online game section */
